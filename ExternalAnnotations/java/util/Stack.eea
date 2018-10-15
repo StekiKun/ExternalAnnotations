@@ -1,0 +1,7 @@
+class java/util/Stack
+peek
+ ()TE;
+pop
+ ()TE;
+push
+ (TE;)TE;

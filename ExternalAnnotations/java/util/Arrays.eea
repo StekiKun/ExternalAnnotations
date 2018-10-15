@@ -1,0 +1,109 @@
+class java/util/Arrays
+asList
+ <T:Ljava/lang/Object;>([TT;)Ljava/util/List<TT;>;
+ <T:Ljava/lang/Object;>([TT;)L1java/util/List<TT;>;
+copyOf
+ ([BI)[B
+ ([BI)[1B
+copyOf
+ ([CI)[C
+ ([CI)[1C
+copyOf
+ ([DI)[D
+ ([DI)[1D
+copyOf
+ ([FI)[F
+ ([FI)[1F
+copyOf
+ ([II)[I
+ ([II)[1I
+copyOf
+ ([JI)[J
+ ([JI)[1J
+copyOf
+ ([SI)[S
+ ([SI)[1S
+copyOf
+ ([ZI)[Z
+ ([ZI)[1Z
+copyOf
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>([TU;ILjava/lang/Class<+[TT;>;)[TT;
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>([TU;ILjava/lang/Class<+[TT;>;)[1TT;
+copyOfRange
+ ([BII)[B
+ ([BII)[1B
+copyOfRange
+ ([CII)[C
+ ([CII)[1C
+copyOfRange
+ ([DII)[D
+ ([DII)[1D
+copyOfRange
+ ([FII)[F
+ ([FII)[1F
+copyOfRange
+ ([III)[I
+ ([III)[1I
+copyOfRange
+ ([JII)[J
+ ([JII)[1J
+copyOfRange
+ ([SII)[S
+ ([SII)[1S
+copyOfRange
+ ([ZII)[Z
+ ([ZII)[1Z
+copyOfRange
+ <T:Ljava/lang/Object;>([TT;II)[TT;
+ <T:Ljava/lang/Object;>([TT;II)[1TT;
+copyOfRange
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>([TU;IILjava/lang/Class<+[TT;>;)[TT;
+ <T:Ljava/lang/Object;U:Ljava/lang/Object;>([TU;IILjava/lang/Class<+[TT;>;)[1TT;
+spliterator
+ ([D)Ljava/util/Spliterator$OfDouble;
+ ([D)L1java/util/Spliterator$OfDouble;
+spliterator
+ ([DII)Ljava/util/Spliterator$OfDouble;
+ ([DII)L1java/util/Spliterator$OfDouble;
+spliterator
+ ([I)Ljava/util/Spliterator$OfInt;
+ ([I)L1java/util/Spliterator$OfInt;
+spliterator
+ ([III)Ljava/util/Spliterator$OfInt;
+ ([III)L1java/util/Spliterator$OfInt;
+spliterator
+ ([J)Ljava/util/Spliterator$OfLong;
+ ([J)L1java/util/Spliterator$OfLong;
+spliterator
+ ([JII)Ljava/util/Spliterator$OfLong;
+ ([JII)L1java/util/Spliterator$OfLong;
+spliterator
+ <T:Ljava/lang/Object;>([TT;)Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>([TT;)L1java/util/Spliterator<TT;>;
+spliterator
+ <T:Ljava/lang/Object;>([TT;II)Ljava/util/Spliterator<TT;>;
+ <T:Ljava/lang/Object;>([TT;II)L1java/util/Spliterator<TT;>;
+stream
+ ([D)Ljava/util/stream/DoubleStream;
+ ([D)L1java/util/stream/DoubleStream;
+stream
+ ([DII)Ljava/util/stream/DoubleStream;
+ ([DII)L1java/util/stream/DoubleStream;
+stream
+ ([I)Ljava/util/stream/IntStream;
+ ([I)L1java/util/stream/IntStream;
+stream
+ ([III)Ljava/util/stream/IntStream;
+ ([III)L1java/util/stream/IntStream;
+stream
+ ([J)Ljava/util/stream/LongStream;
+ ([J)L1java/util/stream/LongStream;
+stream
+ ([JII)Ljava/util/stream/LongStream;
+ ([JII)L1java/util/stream/LongStream;
+stream
+ <T:Ljava/lang/Object;>([TT;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>([TT;)L1java/util/stream/Stream<TT;>;
+stream
+ <T:Ljava/lang/Object;>([TT;II)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>([TT;II)L1java/util/stream/Stream<TT;>;

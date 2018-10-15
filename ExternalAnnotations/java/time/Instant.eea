@@ -1,0 +1,73 @@
+class java/time/Instant
+adjustInto
+ (Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;
+ (Ljava/time/temporal/Temporal;)L1java/time/temporal/Temporal;
+atOffset
+ (Ljava/time/ZoneOffset;)Ljava/time/OffsetDateTime;
+ (Ljava/time/ZoneOffset;)L1java/time/OffsetDateTime;
+atZone
+ (Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+ (Ljava/time/ZoneId;)L1java/time/ZonedDateTime;
+from
+ (Ljava/time/temporal/TemporalAccessor;)Ljava/time/Instant;
+ (Ljava/time/temporal/TemporalAccessor;)L1java/time/Instant;
+minus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Instant;
+ (JLjava/time/temporal/TemporalUnit;)L1java/time/Instant;
+minusMillis
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+minusNanos
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+minusSeconds
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+now
+ ()Ljava/time/Instant;
+ ()L1java/time/Instant;
+now
+ (Ljava/time/Clock;)Ljava/time/Instant;
+ (Ljava/time/Clock;)L1java/time/Instant;
+ofEpochMilli
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+ofEpochSecond
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+ofEpochSecond
+ (JJ)Ljava/time/Instant;
+ (JJ)L1java/time/Instant;
+parse
+ (Ljava/lang/CharSequence;)Ljava/time/Instant;
+ (Ljava/lang/CharSequence;)L1java/time/Instant;
+plus
+ (JLjava/time/temporal/TemporalUnit;)Ljava/time/Instant;
+ (JLjava/time/temporal/TemporalUnit;)L1java/time/Instant;
+plus
+ (Ljava/time/temporal/TemporalAmount;)Ljava/time/Instant;
+ (Ljava/time/temporal/TemporalAmount;)L1java/time/Instant;
+plusMillis
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+plusNanos
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+plusSeconds
+ (J)Ljava/time/Instant;
+ (J)L1java/time/Instant;
+query
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+ <R:Ljava/lang/Object;>(Ljava/time/temporal/TemporalQuery<TR;>;)TR;
+range
+ (Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;
+ (Ljava/time/temporal/TemporalField;)L1java/time/temporal/ValueRange;
+truncatedTo
+ (Ljava/time/temporal/TemporalUnit;)Ljava/time/Instant;
+ (Ljava/time/temporal/TemporalUnit;)L1java/time/Instant;
+with
+ (Ljava/time/temporal/TemporalAdjuster;)Ljava/time/Instant;
+ (Ljava/time/temporal/TemporalAdjuster;)L1java/time/Instant;
+with
+ (Ljava/time/temporal/TemporalField;J)Ljava/time/Instant;
+ (Ljava/time/temporal/TemporalField;J)L1java/time/Instant;

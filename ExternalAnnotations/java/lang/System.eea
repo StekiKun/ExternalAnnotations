@@ -1,0 +1,43 @@
+class java/lang/System
+clearProperty
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+console
+ ()Ljava/io/Console;
+ ()L0java/io/Console;
+err
+ Ljava/io/PrintStream;
+ L1java/io/PrintStream;
+getProperties
+ ()Ljava/util/Properties;
+ ()L1java/util/Properties;
+getProperty
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)L0java/lang/String;
+getSecurityManager
+ ()Ljava/lang/SecurityManager;
+ ()L0java/lang/SecurityManager;
+getenv
+ ()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+ ()L1java/util/Map<Ljava/lang/String;Ljava/lang/String;>;
+getenv
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+in
+ Ljava/io/InputStream;
+ L1java/io/InputStream;
+inheritedChannel
+ ()Ljava/nio/channels/Channel;
+ ()L0java/nio/channels/Channel;
+lineSeparator
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+mapLibraryName
+ (Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;)L0java/lang/String;
+out
+ Ljava/io/PrintStream;
+ L1java/io/PrintStream;
+setProperty
+ (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ (Ljava/lang/String;Ljava/lang/String;)L0java/lang/String;
