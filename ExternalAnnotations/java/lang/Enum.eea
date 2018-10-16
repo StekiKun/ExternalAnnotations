@@ -1,0 +1,13 @@
+class java/lang/Enum
+getDeclaringClass
+ ()Ljava/lang/Class<TE;>;
+ ()L1java/lang/Class<TE;>;
+name
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
+valueOf
+ <T:Ljava/lang/Enum<TT;>;>(Ljava/lang/Class<TT;>;Ljava/lang/String;)TT;
+ <T:Ljava/lang/Enum<TT;>;>(Ljava/lang/Class<TT;>;Ljava/lang/String;)T1T;
