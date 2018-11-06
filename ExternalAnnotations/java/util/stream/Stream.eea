@@ -14,6 +14,12 @@ empty
 filter
  (Ljava/util/function/Predicate<-TT;>;)Ljava/util/stream/Stream<TT;>;
  (Ljava/util/function/Predicate<-TT;>;)L1java/util/stream/Stream<TT;>;
+findAny
+ ()Ljava/util/Optional<TT;>;
+ ()L1java/util/Optional<TT;>;
+findFirst
+ ()Ljava/util/Optional<TT;>;
+ ()L1java/util/Optional<TT;>;
 flatMap
  <R:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+Ljava/util/stream/Stream<+TR;>;>;)Ljava/util/stream/Stream<TR;>;
  <R:Ljava/lang/Object;>(Ljava/util/function/Function<-TT;+Ljava/util/stream/Stream<+TR;>;>;)L1java/util/stream/Stream<TR;>;
@@ -47,6 +53,12 @@ mapToInt
 mapToLong
  (Ljava/util/function/ToLongFunction<-TT;>;)Ljava/util/stream/LongStream;
  (Ljava/util/function/ToLongFunction<-TT;>;)L1java/util/stream/LongStream;
+max
+ (Ljava/util/Comparator<-TT;>;)Ljava/util/Optional<TT;>;
+ (Ljava/util/Comparator<-TT;>;)L1java/util/Optional<TT;>;
+min
+ (Ljava/util/Comparator<-TT;>;)Ljava/util/Optional<TT;>;
+ (Ljava/util/Comparator<-TT;>;)L1java/util/Optional<TT;>;
 of
  <T:Ljava/lang/Object;>(TT;)Ljava/util/stream/Stream<TT;>;
  <T:Ljava/lang/Object;>(TT;)L1java/util/stream/Stream<TT;>;
@@ -56,6 +68,9 @@ of
 peek
  (Ljava/util/function/Consumer<-TT;>;)Ljava/util/stream/Stream<TT;>;
  (Ljava/util/function/Consumer<-TT;>;)L1java/util/stream/Stream<TT;>;
+reduce
+ (Ljava/util/function/BinaryOperator<TT;>;)Ljava/util/Optional<TT;>;
+ (Ljava/util/function/BinaryOperator<TT;>;)L1java/util/Optional<TT;>;
 skip
  (J)Ljava/util/stream/Stream<TT;>;
  (J)L1java/util/stream/Stream<TT;>;
