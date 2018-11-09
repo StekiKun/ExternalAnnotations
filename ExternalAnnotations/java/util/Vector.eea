@@ -1,0 +1,49 @@
+class java/util/Vector
+clone
+ ()Ljava/lang/Object;
+ ()L1java/lang/Object;
+elementAt
+ (I)TE;
+ (I)TE;
+elements
+ ()Ljava/util/Enumeration<TE;>;
+ ()L1java/util/Enumeration<TE;>;
+firstElement
+ ()TE;
+ ()TE;
+get
+ (I)TE;
+ (I)TE;
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>;
+lastElement
+ ()TE;
+ ()TE;
+listIterator
+ ()Ljava/util/ListIterator<TE;>;
+ ()L1java/util/ListIterator<TE;>;
+listIterator
+ (I)Ljava/util/ListIterator<TE;>;
+ (I)L1java/util/ListIterator<TE;>;
+remove
+ (I)TE;
+ (I)TE;
+set
+ (ITE;)TE;
+ (ITE;)TE;
+spliterator
+ ()Ljava/util/Spliterator<TE;>;
+ ()L1java/util/Spliterator<TE;>;
+subList
+ (II)Ljava/util/List<TE;>;
+ (II)L1java/util/List<TE;>;
+toArray
+ ()[Ljava/lang/Object;
+ ()[1Ljava/lang/Object;
+toArray
+ <T:Ljava/lang/Object;>([TT;)[TT;
+ <T:Ljava/lang/Object;>([TT;)[1TT;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
