@@ -1,0 +1,39 @@
+class java/util/Deque
+descendingIterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>;
+element
+ ()TE;
+getFirst
+ ()TE;
+getLast
+ ()TE;
+iterator
+ ()Ljava/util/Iterator<TE;>;
+ ()L1java/util/Iterator<TE;>;
+peek
+ ()TE;
+ ()T0E;
+peekFirst
+ ()TE;
+ ()T0E;
+peekLast
+ ()TE;
+ ()T0E;
+poll
+ ()TE;
+ ()T0E;
+pollFirst
+ ()TE;
+ ()T0E;
+pollLast
+ ()TE;
+ ()T0E;
+pop
+ ()TE;
+remove
+ ()TE;
+removeFirst
+ ()TE;
+removeLast
+ ()TE;
