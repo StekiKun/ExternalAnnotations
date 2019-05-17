@@ -8,6 +8,9 @@ entrySet
 get
  (Ljava/lang/Object;)TV;
  (Ljava/lang/Object;)T0V;
+getOrDefault
+ (Ljava/lang/Object;TV;)TV;
+ (Ljava/lang/Object;T1V;)T1V;
 keySet
  ()Ljava/util/Set<TK;>;
  ()L1java/util/Set<TK;>;
