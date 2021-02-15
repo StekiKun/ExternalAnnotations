@@ -1,0 +1,16 @@
+class java/io/StringWriter
+append
+ (C)Ljava/io/StringWriter;
+ (C)L1java/io/StringWriter;
+append
+ (Ljava/lang/CharSequence;)Ljava/io/StringWriter;
+ (Ljava/lang/CharSequence;)L1java/io/StringWriter;
+append
+ (Ljava/lang/CharSequence;II)Ljava/io/StringWriter;
+ (Ljava/lang/CharSequence;II)L1java/io/StringWriter;
+getBuffer
+ ()Ljava/lang/StringBuffer;
+ ()L1java/lang/StringBuffer;
+toString
+ ()Ljava/lang/String;
+ ()L1java/lang/String;
