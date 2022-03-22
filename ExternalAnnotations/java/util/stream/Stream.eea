@@ -33,6 +33,9 @@ flatMapToLong
  (Ljava/util/function/Function<-TT;+Ljava/util/stream/LongStream;>;)Ljava/util/stream/LongStream;
  (Ljava/util/function/Function<-TT;+Ljava/util/stream/LongStream;>;)L1java/util/stream/LongStream;
 generate
+ <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<+TT;>;)Ljava/util/stream/Stream<TT;>;
+ <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<+TT;>;)L1java/util/stream/Stream<TT;>;
+generate
  <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<TT;>;)Ljava/util/stream/Stream<TT;>;
  <T:Ljava/lang/Object;>(Ljava/util/function/Supplier<TT;>;)L1java/util/stream/Stream<TT;>;
 iterate
